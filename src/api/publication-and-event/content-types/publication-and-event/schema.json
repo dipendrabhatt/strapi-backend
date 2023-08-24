@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publication_and_events",
+  "info": {
+    "singularName": "publication-and-event",
+    "pluralName": "publication-and-events",
+    "displayName": "Publication and Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "publication",
+        "event"
+      ]
+    }
+  }
+}

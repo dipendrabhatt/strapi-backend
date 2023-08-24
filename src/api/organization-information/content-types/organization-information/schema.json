@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organization_informations",
+  "info": {
+    "singularName": "organization-information",
+    "pluralName": "organization-informations",
+    "displayName": "Organization Information"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "organizationName": {
+      "type": "string"
+    },
+    "sologan": {
+      "type": "richtext"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}

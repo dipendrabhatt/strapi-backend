@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vision_and_histories",
+  "info": {
+    "singularName": "vision-and-history",
+    "pluralName": "vision-and-histories",
+    "displayName": "Vision And History"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "vision",
+        "history"
+      ]
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
